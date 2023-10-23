@@ -7,9 +7,9 @@
         
         /* Image CSS */
         .hero img {
-            width: 500px; /* Adjust width as needed */
-            height: 200px; /* Maintain aspect ratio */
-            object-fit: cover;
+            width: 100%; /* Adjust width as needed */
+            height: auto; /* Maintain aspect ratio */
+           object-fit: cover;
 
         }
 
