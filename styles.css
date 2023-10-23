@@ -1,1 +1,23 @@
 /*  your css code here. If applicable */
+.hero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        /* Image CSS */
+        .hero img {
+            width: 500px; /* Adjust width as needed */
+            height: 200px; /* Maintain aspect ratio */
+            object-fit: cover;
+
+        }
+
+        /* "Explore Now" Button or Link CSS */
+        .hero-button {
+            padding: 10px 20px; /* Adjust padding as needed */
+            background-color: red; /* Choose your desired background color */
+            color: #FFFFFF; /* Choose your desired text color */
+            border-radius: 5px; /* Adjust border radius as needed */
+            text-decoration: none; /* Remove default link styling */
+        }
